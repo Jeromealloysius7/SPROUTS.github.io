@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color:burlywood;
     color: black;
-    overflow-x: hidden; /* Prevent horizontal overflow */
+    overflow-x: hidden; 
     
 }
 
@@ -94,8 +94,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    margin: 0; /* Remove any default margin */
-    padding: 0; /* Remove any default padding */
+    margin: 0; 
+    padding: 0; /
 }
 
 .hero-image {
@@ -429,23 +429,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px; /* Spacing between flex items */
+    gap: 50px; 
     margin: 25px;
     margin-top: 70px;
 }
 
 /* Flex Item */
 .flex-container > div {
-    flex: 1 1 250px; /* Flex basis for item width */
-    margin-bottom: 20px; /* Space between rows */
+    flex: 1 1 250px;
+    margin-bottom: 20px; 
     text-align: center;
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .flex-container > div {
-        flex-basis: calc(50% - 20px); /* Adjust width for smaller screens */
-    }
+        flex-basis: calc(50% - 20px); 
 }
 /*end dairy products*/
 
@@ -531,7 +530,7 @@ button:hover {
 }
 @media screen and (max-width: 768px) {
     .grid-container {
-        grid-template-columns: repeat(1, 1fr); /* 1 column for smaller screens */
+        grid-template-columns: repeat(1, 1fr); 
     }
 }
 /*end vegetables */
