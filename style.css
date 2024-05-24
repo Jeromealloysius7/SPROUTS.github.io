@@ -133,7 +133,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* Responsive Design */
+/*mobile Responsive  */
 @media (max-width: 768px) {
     .introduction1 {
         padding: 20px 10px;
@@ -387,7 +387,7 @@ tfoot {
     
 }
 
-/* Responsive Design */
+/* mobile Responsive  */
 @media screen and (max-width: 768px) {
     .table-container {
         overflow-x: auto; 
@@ -441,7 +441,7 @@ body {
     text-align: center;
 }
 
-/* Responsive Design */
+/*mobile  Responsive */
 @media screen and (max-width: 768px) {
     .flex-container > div {
         flex-basis: calc(50% - 20px); 
@@ -574,7 +574,7 @@ button:hover {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
-  /* Media queries for mobile responsiveness */
+  /* mobile responsiveness */
   @media screen and (max-width: 768px) {
     th, td {
       font-size: 14px;
@@ -742,7 +742,7 @@ button:hover {
         margin-top: 10px;
     }
     
-    /* Responsive Styles */
+    /*mobile  Responsive  */
     @media (max-width: 600px) {
         .registration-container {
             padding: 15px;
